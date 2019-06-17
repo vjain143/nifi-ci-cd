@@ -7,34 +7,7 @@
       "flowContents" : {
         "comments" : "",
         "componentType" : "PROCESS_GROUP",
-        "connections" : [ {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "64ee2fbd-016b-1000-8cfd-827cffad14dc",
-            "id" : "e4b3ab9a-de39-301f-abb7-fcf3bafbb8bd",
-            "name" : "LogMessage",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "b8359b67-938d-3909-bd79-072f8d87dac2",
-          "identifier" : "48d00ed0-4780-323b-aa27-81028c5bc4f8",
-          "labelIndex" : 1,
-          "name" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "64ee2fbd-016b-1000-8cfd-827cffad14dc",
-            "id" : "83b297e8-0ffe-3385-af04-c175a5099e81",
-            "name" : "GenerateFlowFile",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        } ],
+        "connections" : [ ],
         "controllerServices" : [ ],
         "funnels" : [ ],
         "identifier" : "b8359b67-938d-3909-bd79-072f8d87dac2",
@@ -43,12 +16,12 @@
         "name" : "Git Test Bucket 2",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 1518.433349609375,
-          "y" : -7.9333343505859375
+          "x" : 1446.433349609375,
+          "y" : -39.93333435058594
         },
         "processGroups" : [ ],
         "processors" : [ {
-          "autoTerminatedRelationships" : [ ],
+          "autoTerminatedRelationships" : [ "success" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
             "artifact" : "nifi-standard-nar",
@@ -117,55 +90,6 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ "success" ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.5.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "b8359b67-938d-3909-bd79-072f8d87dac2",
-          "identifier" : "e4b3ab9a-de39-301f-abb7-fcf3bafbb8bd",
-          "name" : "LogMessage",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 814.433349609375,
-            "y" : 177.06666564941406
-          },
-          "properties" : {
-            "log-level" : "info"
-          },
-          "propertyDescriptors" : {
-            "log-message" : {
-              "displayName" : "Log message",
-              "identifiesControllerService" : false,
-              "name" : "log-message",
-              "sensitive" : false
-            },
-            "log-level" : {
-              "displayName" : "Log Level",
-              "identifiesControllerService" : false,
-              "name" : "log-level",
-              "sensitive" : false
-            },
-            "log-prefix" : {
-              "displayName" : "Log prefix",
-              "identifiesControllerService" : false,
-              "name" : "log-prefix",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.LogMessage",
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],

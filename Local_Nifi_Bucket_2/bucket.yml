@@ -1,6 +1,6 @@
 flows:
-  eda22f03-0fc1-4dbe-8e31-f6d5db086dee: {ver: 1, file: Test_Flow_2_with_Bucket_2.snapshot,
-    comments: '', author: anonymous, created: 1560766623079, flowName: Test Flow 2
-      with Bucket 2, flowDesc: ''}
+  eda22f03-0fc1-4dbe-8e31-f6d5db086dee: {ver: 2, file: Test_Flow_2_with_Bucket_2.snapshot,
+    comments: 'Test Commit to see conflict ', author: anonymous, created: 1560788894518,
+    flowName: Test Flow 2 with Bucket 2, flowDesc: ''}
 layoutVer: 1
 bucketId: e6f33205-199b-4240-90c1-86eea4622b89
