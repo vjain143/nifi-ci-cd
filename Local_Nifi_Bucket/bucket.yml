@@ -1,7 +1,7 @@
 flows:
-  6e2c5932-75e4-447e-a073-ff3d471883d6: {ver: 1, file: Test_Flow_for_Develop_branch.snapshot,
-    comments: '', author: anonymous, created: 1560774067702, flowName: Test Flow for
-      Develop branch, flowDesc: ''}
+  6e2c5932-75e4-447e-a073-ff3d471883d6: {ver: 2, file: Test_Flow_for_Develop_branch.snapshot,
+    comments: Updated flow file, author: anonymous, created: 1560774129098, flowName: Test
+      Flow for Develop branch, flowDesc: ''}
   0ed6fbf0-605c-4305-85c3-f371a456f99c: {ver: 1, file: Test_Git_Flow.snapshot, comments: '',
     author: anonymous, created: 1560754588527, flowName: Test Git Flow, flowDesc: ''}
 layoutVer: 1
