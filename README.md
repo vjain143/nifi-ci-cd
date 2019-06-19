@@ -10,6 +10,7 @@ References :
   registry list-buckets'
   ```
 Output
+
 |      | Name                | Id                                   | Description |
 | ---- |:-------------------:| :-----------------------------------:| -----------:|
 | 1    | Local_Nifi_Bucket   | 7b4aedd4-d56d-474c-ba4b-d3828fa924ae |(empty)      | 
@@ -20,6 +21,7 @@ Output
   registry list-flows --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae
   ```
 Output
+
 |     |Name           |Id                                    |Description|
 |---- |:-------------:|:------------------------------------:| ---------:|   
 |1    | Test Git Flow |  0ed6fbf0-605c-4305-85c3-f371a456f99c|           |
@@ -29,6 +31,7 @@ Output
 registry list-flow-versions --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c
 ```
 Output
+
 |Ver  |Date                        |Author     |Message |  
 |---  |:--------------------------:|:---------:|-------:| 
 |1    |Mon, Jun 17 2019 07:56 IST  |anonymous  |        |
