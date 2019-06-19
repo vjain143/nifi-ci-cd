@@ -6,7 +6,7 @@ References :
 
 # How to export and import Nifi Work flow nifi-toolkit 
 * Find Which bucket you would like to export flow
-  'registry list-buckets'
+  'registry list-buckets' <br>
   Output
   
 | SrNo | Name                | Id                                   | Description |
