@@ -15,7 +15,7 @@ References :
 | 2    | Local_Nifi_Bucket_2 | e6f33205-199b-4240-90c1-86eea4622b89 |(empty)      | 
 
 * Find Which flow you would like to export for given bucket<br>
-registry list-flows --bucketIdentifier <b>7b4aedd4-d56d-474c-ba4b-d3828fa924ae<b>
+registry list-flows --bucketIdentifier <b>7b4aedd4-d56d-474c-ba4b-d3828fa924ae</b>
 
 |     |Name           |Id                                    |Description|
 |---- |:-------------:|:------------------------------------:| ---------:|   
