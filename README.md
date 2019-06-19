@@ -41,7 +41,7 @@ Output :-
   ```javascript 
   'nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1'
   ```
-Output :- Output will disply a uniqe processor group id.
+  Output :- Output will disply a uniqe processor group id.
   ```javascript 
   70493818-016b-1000-b64d-682ea1eb9c7c
   ```  
