@@ -9,7 +9,7 @@ References :
   ```javascript 
   registry list-buckets'
   ```
-Output
+Output :- 
 
 |      | Name                | Id                                   | Description |
 | ---- |:-------------------:| :-----------------------------------:| -----------:|
@@ -20,7 +20,7 @@ Output
   ```javascript 
   registry list-flows --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae
   ```
-Output
+Output :-
 
 |     |Name           |Id                                    |Description|
 |---- |:-------------:|:------------------------------------:| ---------:|   
@@ -30,7 +30,7 @@ Output
 ```javascript 
 registry list-flow-versions --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c
 ```
-Output
+Output :-
 
 |Ver  |Date                        |Author     |Message |  
 |---  |:--------------------------:|:---------:|-------:| 
