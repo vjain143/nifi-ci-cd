@@ -8,7 +8,7 @@ References :
 * Find Which bucket you would like to export flow
   'registry list-buckets'
   Output
-|  Name                  |Id                                     |Description   |
+| SrNo |Name                  |Id                                     |Description   |
 |:-:| :-------------------:  | :------------------------------------:  | :----------- |
 |1  | Local_Nifi_Bucket     |7b4aedd4-d56d-474c-ba4b-d3828fa924ae   |(empty)     |  
 |2  | Local_Nifi_Bucket_2   |e6f33205-199b-4240-90c1-86eea4622b89   |(empty)|
