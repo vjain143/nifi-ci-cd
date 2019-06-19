@@ -27,9 +27,9 @@ Output :-
 |1    | Test Git Flow |  0ed6fbf0-605c-4305-85c3-f371a456f99c|           |
 
 * Get the flow version you would like to export for given flow<br>
-```javascript 
-registry list-flow-versions --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c
-```
+  ```javascript 
+  registry list-flow-versions --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c
+  ```
 Output :-
 
 |Ver  |Date                        |Author     |Message |  
@@ -38,15 +38,15 @@ Output :-
 
 # How to start and stop NiFi Workflow using nifi-toolkit 
 * Import Flow to NiFi UI from NiFi Registry
-```javascript 
-'nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1'
-```
+  ```javascript 
+  'nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1'
+  ```
 Output :- Output will disply a uniqe processor group id.
-```javascript 
+  ```javascript 
   70493818-016b-1000-b64d-682ea1eb9c7c
-```  
+  ```  
 * Start Nifi Processor group
-```javascript 
+  ```javascript 
   nifi pg-start --processGroupId 70493818-016b-1000-b64d-682ea1eb9c7c
   ```
 * Stop Nifi Processor group
