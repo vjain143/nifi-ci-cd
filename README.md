@@ -9,7 +9,7 @@ References :
   ```javascript 
   registry list-buckets'
   ```
-  Output :- 
+Output :- 
   
 |      | Name                | Id                                   | Description |
 | ---- |:-------------------:| :-----------------------------------:| -----------:|
