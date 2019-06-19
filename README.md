@@ -7,7 +7,7 @@ References :
 # How to export and import Nifi Work flow nifi-toolkit 
 * 
 # How to start and stop NiFi Workflow using nifi-toolkit 
-nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1
+'nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1'
 
 # 70493818-016b-1000-b64d-682ea1eb9c7c
 
