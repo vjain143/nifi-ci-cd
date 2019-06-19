@@ -12,28 +12,29 @@ References :
 Output
 |      | Name                | Id                                   | Description |
 | ---- |:-------------------:| :-----------------------------------:| -----------:|
-| 1    | Local_Nifi_Bucket   | <b>7b4aedd4-d56d-474c-ba4b-d3828fa924ae</b> |(empty)      | 
+| 1    | Local_Nifi_Bucket   | 7b4aedd4-d56d-474c-ba4b-d3828fa924ae |(empty)      | 
 | 2    | Local_Nifi_Bucket_2 | e6f33205-199b-4240-90c1-86eea4622b89 |(empty)      | 
 
 * Find Which flow you would like to export for given bucket<br>
   ```javascript 
-  registry list-flows --bucketIdentifier <b>7b4aedd4-d56d-474c-ba4b-d3828fa924ae
-```
+  registry list-flows --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae
+  ```
+Output
 |     |Name           |Id                                    |Description|
 |---- |:-------------:|:------------------------------------:| ---------:|   
 |1    | Test Git Flow |  0ed6fbf0-605c-4305-85c3-f371a456f99c|           |
 
 * Find Which flow version you would like to export for given flow<br>
-  ```javascript 
-registry list-flow-versions --flowIdentifier <b>0ed6fbf0-605c-4305-85c3-f371a456f99c
+```javascript 
+registry list-flow-versions --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c
 ```
-
+Output
 |Ver  |Date                        |Author     |Message |  
 |---  |:--------------------------:|:---------:|-------:| 
 |1    |Mon, Jun 17 2019 07:56 IST  |anonymous  |        |
 
 # How to start and stop NiFi Workflow using nifi-toolkit 
-  ```javascript 
+```javascript 
 'nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1'
 ```
 
