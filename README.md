@@ -16,7 +16,7 @@ Output :-
 | 1    | Local_Nifi_Bucket   | 7b4aedd4-d56d-474c-ba4b-d3828fa924ae |(empty)      | 
 | 2    | Local_Nifi_Bucket_2 | e6f33205-199b-4240-90c1-86eea4622b89 |(empty)      | 
 
-* Find Which flow you would like to export for given bucket<br>
+* Get the list of flow, you would like to export for given bucket<br>
   ```javascript 
   registry list-flows --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae
   ```
@@ -26,7 +26,7 @@ Output :-
 |---- |:-------------:|:------------------------------------:| ---------:|   
 |1    | Test Git Flow |  0ed6fbf0-605c-4305-85c3-f371a456f99c|           |
 
-* Find Which flow version you would like to export for given flow<br>
+* Get the flow version you would like to export for given flow<br>
 ```javascript 
 registry list-flow-versions --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c
 ```
@@ -37,12 +37,19 @@ Output :-
 |1    |Mon, Jun 17 2019 07:56 IST  |anonymous  |        |
 
 # How to start and stop NiFi Workflow using nifi-toolkit 
+* Import Flow to NiFi UI from NiFi Registry
 ```javascript 
 'nifi pg-import --bucketIdentifier 7b4aedd4-d56d-474c-ba4b-d3828fa924ae --flowIdentifier 0ed6fbf0-605c-4305-85c3-f371a456f99c --flowVersion 1'
 ```
-
-# 70493818-016b-1000-b64d-682ea1eb9c7c
-
-#
-# nifi pg-start --processGroupId 70493818-016b-1000-b64d-682ea1eb9c7c
-#> nifi pg-stop --processGroupId 70493818-016b-1000-b64d-682ea1eb9c7c
+Output :- Output will disply a uniqe processor group id.
+```javascript 
+  70493818-016b-1000-b64d-682ea1eb9c7c
+```  
+* Start Nifi Processor group
+```javascript 
+  nifi pg-start --processGroupId 70493818-016b-1000-b64d-682ea1eb9c7c
+  ```
+* Stop Nifi Processor group
+  ```javascript 
+  nifi pg-stop --processGroupId 70493818-016b-1000-b64d-682ea1eb9c7c
+  ```
