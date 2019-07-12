@@ -3,6 +3,7 @@ This project is demonstrate CI/CD process in nifi
 References : 
 * https://community.hortonworks.com/articles/210286/storing-apache-nifi-versioned-flows-in-a-git-repos.html
 * https://pierrevillard.com/2018/04/09/automate-workflow-deployment-in-apache-nifi-with-the-nifi-registry/
+* https://bryanbende.com/development/2018/06/20/apache-nifi-registry-0-2-0
 
 # How to export and import Nifi workflow from nifi registry using nifi-toolkit 
 * Get the list of bucket, you would like to export flow <br>
